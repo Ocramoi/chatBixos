@@ -1,2 +1,2 @@
 # chatBixos
-[PT] Site para os bixos do CTI-2019 se xingarem anonimamante
+Site criado em 2019 no qual qualquer um pode postar anonimamente sobre qualquer bixo daquele ano, plantando a discórdia entre os alunos.

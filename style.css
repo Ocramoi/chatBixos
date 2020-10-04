@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+:root 
+{
+    --main-width: 80%; 
+}
+
+html, body
+{
+    font-family: 'Roboto', sans-serif !important;
+    height: 98%;
+}
+header
+{
+    width: 100%;
+    padding: 10px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    background-color: rgb(121, 224, 255);
+    font-weight: bolder;
+    font-size: 1.6cm;
+    margin-bottom: 20px;
+}
+
+#voltar
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#voltar a
+{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:hover
+{
+    text-decoration: none !important;
+    color: currentColor !important;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        font-size: 1cm;
+    }
+  }
+
+.bixo
+{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(133, 255, 198);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 0.4cm;
+}
+
+@media screen and (max-width: 800px) {
+    .bixo {
+        width: 90%;
+    }
+  }
+
+.nome
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: currentColor;
+}
+
+#comentsBixo
+{
+    width: 100%;
+    text-align: center;
+}
+
+#acoesComent
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    #acoesComent {
+        width: 90%;
+    }
+  }
+
+#inComent
+{
+    border-radius: 5px;
+    border: 1px solid rgb(44, 44, 44);
+    width: 100%;
+    margin: 0 auto;
+    outline: none !important;
+    resize: none;
+}
+
+#subComent
+{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid rgb(44, 44, 44);
+    background-color: aqua;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.coment
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(234, 254, 255);
+}
+
+.comentMain
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(91, 255, 178);
+}
+
+@media screen and (max-width: 800px) {
+    .coment {
+        width: 90%;
+    }
+    .comentMain
+    {
+        width: 90%;
+    }
+  }
+
+#mais
+{
+    margin-top: 5px;
+    font-size: 0.4cm;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: currentColor;
+}
+
+#pesq
+{
+    overflow: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(107, 107, 107);
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    #pesq {
+        width: 90%;
+    }
+  }
+
+#pesq i
+{
+    float: right;
+    margin-top: 0.3em;
+    margin-right: 0.3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#inPesq
+{
+    float: left;
+    border: 0;
+    width: 90%;
+    margin: 0 auto;
+    outline: none !important;
+}
+
+.comentComp
+{
+    font-weight: bold;
+    font-style: italic;
+    color: currentColor;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#cima
+{
+    cursor: pointer;
+    color: currentColor !important;
+    font-size: 1cm;
+    position: fixed;
+    z-index: 100;
+    top: 90%;
+    left: 95%;
+}
+
+@media screen and (max-width: 800px) {
+    #cima {
+        font-size: 0.7cm;
+        top: 93%;
+        left: 90%;
+    }
+  }
